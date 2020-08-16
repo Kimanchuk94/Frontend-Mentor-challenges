@@ -1,0 +1,233 @@
+
+
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+.grid-container {
+
+position: relative;
+right: 10rem;
+  height: 40rem;
+  float: left;
+  width: 35%;
+  margin-right: 10rem;
+  background: linear-gradient(10.2turn, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  -webkit-border-bottom-right-radius: 80%;
+  -webkit-border-bottom-left-radius: 100%;
+}
+.container-iphone {
+  padding-left: 88%;
+padding-top:8rem;
+position: absolute;
+
+
+}
+
+
+.right-container {
+display: grid;
+
+padding-top: 300px;
+margin-right: 400px;
+  height: 10%;
+  width: 35%;
+  color:hsl(271, 36%, 24%);
+  line-height: 1.8rem;
+
+}
+.header{
+margin-left: 0;
+padding-bottom: 1rem;
+font-weight: 500;
+}
+.iphone {
+
+  height: 455px;
+  width: 220px;
+  border-radius: 30px;
+  position: absolute;
+  box-shadow: 5px 0px 8px 0px #bbc7be;
+  border: 8px solid white;
+  background-color: hsl(270, 20%, 96%);
+}
+
+.notch {
+  position: absolute;
+  width: 110px;
+  height: 25px;
+  border-radius: 15px;
+  top: -8px;
+  left: 45%;
+  transform: translateX(-45px);
+  background: white;
+}
+
+.top-container {
+  background: linear-gradient(0.75turn, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+  height: 60px;
+  float: left;
+  width: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  clear: both;
+}
+
+.triangle {
+  margin-top: 28px;
+  margin-left: 15px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  height: 8px;
+  width: 8px;
+  transform: rotate(135deg);
+  display: inline-block;
+  float: left;
+}
+
+.avatar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 21px;
+  margin-left: 5px;
+  display: inline-block;
+  float: left;
+}
+
+.text-container {
+  display: inline-block;
+  float: left;
+  margin-left: 5px;
+  margin-top: 25px;
+  font-size: 10px;
+  color: hsl(276, 100%, 81%);
+  line-height: 0.8;
+}
+
+.dots {
+  color: white;
+  padding-left: 55px;
+  float: left;
+  margin-top: 25px;
+}
+
+.left-box {
+  color: hsl(276, 55%, 52%);
+  font-size: 8px;
+position: static;
+  padding: 5px;
+  margin: 6px;
+  border-radius: 10px 10px 10px 0px;
+  float: left;
+  width: 110px;
+line-height: 12px;
+  background-color: #c9cdd4;
+}
+
+.right-box {
+  color: hsl(271, 15%, 43%);
+  line-height: 12px;
+  font-size: 8px;
+  padding: 5px;
+  text-align: left;
+  margin: 6px;
+  border-radius: 10px 10px 0px 10px;
+  float: right;
+  width: auto;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.dogimg {
+  clear: left;
+  display: inline-block;
+  float: right;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.box-small {
+
+  width: 71px;
+}
+
+.box-price {
+  color: white;
+  font-size: 8px;
+  padding: 8px;
+  margin: 6px;
+  border-radius: 10px 10px 10px 0px;
+  display: inline-block;
+  width: 140px;
+  background: linear-gradient(0.25turn, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+
+.circle {
+  height: 8px;
+  float:left;
+  width: 8px;
+  border: solid 1px white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.text-price{
+float: left;
+}
+
+.price-first {
+  padding-left: 50px;
+}
+
+.price-second {
+  padding-left: 65px;
+}
+
+.bottom-box {
+  color: grey;
+  font-size: 10px;
+  padding: 8px;
+  margin: 10px;
+  border-radius: 20px;
+  display: inline-block;
+  width: 185px;
+  height: 15px;
+  background-color: white;
+}
+
+.fa {
+  float: right;
+  font-size: 27px;
+  margin-top: -5px;
+  color: hsl(271, 36%, 24%);
+}
+
+@media  only screen and (max-width:600px) {
+  .grid-container {
+  padding-left: 13rem;
+  -webkit-border-bottom-right-radius:80rem;
+height:28rem;
+width: 13em;
+  }
+.container-iphone{
+  padding-left: 20%;
+position: absolute;
+padding-top: 10%;
+}
+/* Right container text */
+.right-container{
+position: absolute;
+top: 240px;
+left: 5rem;
+width: 350px;
+  text-align: center;
+}
+.header{
+font-size:2.9rem;
+}
+}
